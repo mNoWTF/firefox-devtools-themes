@@ -1,0 +1,44 @@
+{
+	"name": "firefox-devtools-themes",
+	"displayName": "Firefox DevTools Themes",
+	"description": "Themes for VSCode, based off Firefox DevTools.",
+	"version": "0.0.1",
+	"publisher": "mNoWTF",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mNoWTF/firefox-devtools-themes"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"keywords": [
+		"firefox",
+		"devtools",
+		"theme",
+		"themes",
+		"fire",
+		"quantum",
+		"dark",
+		"light",
+		"mozilla"
+	],
+	"engines": {
+		"vscode": "^1.100.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Firefox DevTools Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/FF DevTools Dark.json"
+			},
+			{
+				"label": "Firefox DevTools Light",
+				"uiTheme": "vs",
+				"path": "./themes/FF DevTools Light.json"
+			}
+		]
+	}
+}
