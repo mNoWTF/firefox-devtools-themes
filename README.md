@@ -13,11 +13,6 @@ A Visual Studio Code theme inspired by Firefox DevTools.
 
 Search for `Firefox DevTools Theme` in the Extensions view.
 
-### From VSIX
-
-1. Download/build the `.vsix`
-2. In VS Code: Extensions -> `...` -> `Install from VSIX...`
-
 ## Development
 
 - Build VSIX: `npm run package`
