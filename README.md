@@ -7,14 +7,13 @@
 
 A Visual Studio Code theme inspired by Firefox DevTools.
 
-![Firefox DevTools Theme preview](./ff-devtools.png)
-
-More screenshots: `assets/screenshots/`
-
 ## Included themes
 
 - **Firefox DevTools Dark**
+![Firefox DevTools Dark](./assets/screenshots/dark.jpg)
+
 - **Firefox DevTools Light**
+![Firefox DevTools Light](./assets/screenshots/light.jpg)
 
 ## Install
 
