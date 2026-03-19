@@ -26,6 +26,9 @@
     "firefox",
     "devtools"
   ],
+  "devDependencies": {
+    "@vscode/vsce": "^2.26.0"
+  },
   "contributes": {
     "themes": [
       {

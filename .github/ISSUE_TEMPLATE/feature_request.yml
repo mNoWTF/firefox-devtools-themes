@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest an improvement to the theme
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: "It’s hard to distinguish X from Y when..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      placeholder: "Change token color for ... / add ... / tweak ..."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      placeholder: "Any other ideas you considered?"
+    validations:
+      required: false
+

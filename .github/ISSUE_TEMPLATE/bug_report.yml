@@ -1,0 +1,54 @@
+name: Bug report
+description: Something looks wrong with the theme
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue! Please include as much detail as possible so it’s easy to reproduce.
+  - type: input
+    id: vscode_version
+    attributes:
+      label: VS Code version
+      placeholder: "e.g. 1.90.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      options:
+        - Firefox DevTools Dark
+        - Firefox DevTools Light
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: "e.g. Windows 11 / macOS 14 / Ubuntu 24.04"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Include steps to reproduce and what you expected to see.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag & drop images here if possible.
+    validations:
+      required: false
+  - type: textarea
+    id: token_info
+    attributes:
+      label: Token / scope info (optional)
+      description: Output from "Developer: Inspect Editor Tokens and Scopes" can help a lot.
+    validations:
+      required: false
+

@@ -1,6 +1,12 @@
 .vscode/**
 .vscode-test/**
+.github/**
+.npm-cache/**
+assets/**
+node_modules/**
 .gitignore
 vsc-extension-quickstart.md
 ._vsixinspect/**
 ff-devtools.png
+package-lock.json
+*.vsix
