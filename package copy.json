@@ -1,0 +1,46 @@
+{
+  "name": "ff-devtools",
+  "displayName": "Firefox DevTools Theme",
+  "description": "A Firefox DevTools inspired theme.",
+  "version": "0.0.1",
+  "author": "mNoWTF",
+  "publisher": "mnowtf",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mNoWTF/firefox-devtools-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mNoWTF/firefox-devtools-themes/issues"
+  },
+  "homepage": "https://github.com/mNoWTF/firefox-devtools-themes#readme",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "firefox",
+    "devtools"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Firefox DevTools Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ff-devtools-dark.json"
+      },
+      {
+        "label": "Firefox DevTools Light",
+        "uiTheme": "vs",
+        "path": "./themes/ff-devtools-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-dependencies"
+  }
+}
