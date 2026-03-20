@@ -1,7 +1,6 @@
 ﻿# Firefox DevTools Theme (VS Code)
 
 [![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/mnowtf.ff-devtools)](https://marketplace.visualstudio.com/items?itemName=mnowtf.ff-devtools)
-[![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/mnowtf.ff-devtools)](https://marketplace.visualstudio.com/items?itemName=mnowtf.ff-devtools)
 [![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/mnowtf.ff-devtools)](https://marketplace.visualstudio.com/items?itemName=mnowtf.ff-devtools)
 [![License: MIT](https://img.shields.io/github/license/mNoWTF/firefox-devtools-themes)](./LICENSE)
 
