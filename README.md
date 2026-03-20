@@ -1,8 +1,8 @@
 ﻿# Firefox DevTools Theme (VS Code)
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/mnowtf.ff-devtools)](https://marketplace.visualstudio.com/items?itemName=mnowtf.ff-devtools)
-[![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/mnowtf.ff-devtools)](https://marketplace.visualstudio.com/items?itemName=mnowtf.ff-devtools)
-[![License: MIT](https://img.shields.io/github/license/mNoWTF/firefox-devtools-themes)](./LICENSE)
+[![install-badge]](https://marketplace.visualstudio.com/items?itemName=mnowtf.ff-devtools)
+[![Visual Studio Marketplace Version][version-badge]](https://marketplace.visualstudio.com/items?itemName=mnowtf.ff-devtools)
+[![License: MIT][license-badge]](./LICENSE)
 
 A Visual Studio Code theme inspired by Firefox DevTools.
 
@@ -39,6 +39,6 @@ npm run package
 
 This produces a `.vsix` you can install locally (Install from VSIX...).
 
-## Contributing
-
-See `CONTRIBUTING.md`.
+[version-badge]: https://img.shields.io/badge/version-v0.0.1-mediumorchid?style=flat
+[license-badge]: https://img.shields.io/badge/license-MIT-green?style=flat
+[install-badge]: https://img.shields.io/badge/vscode-theme-dodgerblue?style=flat
